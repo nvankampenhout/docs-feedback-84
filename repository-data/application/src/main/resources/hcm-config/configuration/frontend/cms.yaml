@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-static/myCustomPerspective:
+      jcr:primaryType: frontend:plugin
+      jcr:mixinTypes: ['frontend:navigationitem']
+      frontend:appPath: my-custom-perspective
+      hipposys:userrole: xm.cms.user
+      plugin.class: com.example.MyCustomPerspective
+      wicket.id: service.tab
